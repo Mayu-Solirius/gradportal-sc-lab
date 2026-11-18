@@ -1,0 +1,6 @@
+services:
+  flask:
+    build: .
+    ports:
+      - "8080:5000"
+    restart: unless-stopped
